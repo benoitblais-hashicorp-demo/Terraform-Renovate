@@ -73,7 +73,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>= 1.7.5)
 
-- <a name="requirement_random"></a> [random](#requirement\_random) (3.7.2)
+- <a name="requirement_random"></a> [random](#requirement\_random) (3.8.0)
 
 ## Modules
 
