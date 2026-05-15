@@ -1,11 +1,11 @@
-variable "uuid_1_source" {
-  description = "Source URL for the uuid-1 module"
+variable "uuid_source" {
+  description = "Source URL for the uuid module"
   type        = string
-  default     = "git::https://github.com/benoitblais-hashicorp-demo/terraform-random-uuid.git"
+  default     = "app.terraform.io/benoitblais-hashicorp/uuid/random"
 }
 
-variable "uuid_1_version" {
-  description = "Version reference for the uuid-1 module"
+variable "uuid_version" {
+  description = "Version for the uuid module"
   type        = string
   default     = "~> 1.0"
 }
