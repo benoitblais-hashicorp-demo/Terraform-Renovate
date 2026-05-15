@@ -8,6 +8,6 @@ variable "uuid_source" {
 variable "uuid_version" {
   description = "Version for the uuid module"
   type        = string
-  default     = "~> 1.0"
+  default     = "> 1.0"
   const       = true
 }
