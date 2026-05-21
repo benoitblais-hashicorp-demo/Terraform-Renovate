@@ -1,4 +1,4 @@
 module "uuid" {
-  source  = var.source
-  version = var.version
+  source  = var.module_source
+  version = var.module_version
 }
