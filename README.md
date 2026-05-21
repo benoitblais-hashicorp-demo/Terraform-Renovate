@@ -73,7 +73,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>= 1.7.5)
 
-- <a name="requirement_random"></a> [random](#requirement\_random) (3.7.2)
+- <a name="requirement_random"></a> [random](#requirement\_random) (>= 3.7.2)
 
 ## Modules
 
@@ -81,9 +81,9 @@ The following Modules are called:
 
 ### <a name="module_uuid"></a> [uuid](#module\_uuid)
 
-Source: app.terraform.io/benoitblais-hashicorp/uuid/random
+Source: var.module_source
 
-Version: 1.0.0
+Version: var.module_version
 
 ## Required Inputs
 
@@ -91,7 +91,23 @@ No required inputs.
 
 ## Optional Inputs
 
-No optional inputs.
+The following input variables are optional (have default values):
+
+### <a name="input_module_source"></a> [module\_source](#input\_module\_source)
+
+Description: (Optional) Source URL for the uuid module.
+
+Type: `string`
+
+Default: `"app.terraform.io/benoitblais-hashicorp/uuid/random"`
+
+### <a name="input_module_version"></a> [module\_version](#input\_module\_version)
+
+Description: (Optional) Version for the uuid module.
+
+Type: `string`
+
+Default: `">= 1.0.9"`
 
 ## Resources
 
